@@ -67,9 +67,9 @@ def load_models() -> dict:
         try:
             models[name] = joblib.load(path)
             print(f"[LOAD] {name} loaded from {path}")
-        except FileNotFoundError:
+        except Exception as e:
             models[name] = None
-            print(f"[WARN] {name} not found at {path} — run train.py first.")
+            print(f"[WARN] Failed to load {name} from {path} ({e}) — run train.py to regenerate.")
     return models
 
 
