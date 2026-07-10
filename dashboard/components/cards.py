@@ -12,6 +12,11 @@ QuantumSentinel — KPI Card Components  [Pro-Max Redesign]
 """
 
 
+def _clean_html(html_str: str) -> str:
+    """Strip leading/trailing whitespace from each line and join with single space to avoid Markdown parser issues."""
+    return " ".join(line.strip() for line in html_str.splitlines())
+
+
 def kpi_card(title: str,
              value: str,
              subtitle: str = "",
@@ -20,23 +25,10 @@ def kpi_card(title: str,
              glow: bool    = True) -> str:
     """
     Glassmorphism KPI card with neon accent border and glow.
-
-    Parameters
-    ----------
-    title    : e.g. "Market Sentiment"
-    value    : e.g. "Positive"
-    subtitle : e.g. "Based on 50 articles"
-    icon     : emoji icon
-    colour   : hex accent colour
-    glow     : whether to add a neon glow effect
-
-    Returns
-    -------
-    str — HTML string (pass to st.markdown with unsafe_allow_html=True)
     """
     glow_style = f"box-shadow: 0 0 40px {colour}1a, 0 4px 24px rgba(0,0,0,0.4);" if glow else "box-shadow: 0 4px 24px rgba(0,0,0,0.4);"
 
-    return f"""
+    return _clean_html(f"""
     <div style="
         background: linear-gradient(135deg, rgba(13,27,42,0.85) 0%, rgba(2,8,23,0.9) 100%);
         border: 1px solid {colour}33;
@@ -102,7 +94,7 @@ def kpi_card(title: str,
             position: relative; z-index: 1;
         ">{subtitle}</div>
     </div>
-    """
+    """)
 
 
 def signal_badge(signal_name: str) -> str:
@@ -119,7 +111,7 @@ def signal_badge(signal_name: str) -> str:
     icon               = icons.get(signal_name, "⚪")
     ring_col           = ring_colours.get(signal_name, "#38bdf8")
 
-    return f"""
+    return _clean_html(f"""
     <style>
     @keyframes qs-pulse-ring {{
         0%   {{ box-shadow: 0 0 0 0 {ring_col}55, 0 0 40px {ring_col}33; }}
@@ -162,7 +154,7 @@ def signal_badge(signal_name: str) -> str:
             text-shadow: 0 0 30px {colour}88;
         ">{signal_name.upper()}</div>
     </div>
-    """
+    """)
 
 
 def confidence_bar(confidence: float, signal_name: str) -> str:
@@ -175,7 +167,7 @@ def confidence_bar(confidence: float, signal_name: str) -> str:
     c1, c2 = colours.get(signal_name, ("#38bdf8", "#0ea5e9"))
     pct     = round(confidence * 100, 1)
 
-    return f"""
+    return _clean_html(f"""
     <style>
     @keyframes qs-shimmer {{
         0%   {{ background-position: -200% center; }}
@@ -223,12 +215,12 @@ def confidence_bar(confidence: float, signal_name: str) -> str:
             "></div>
         </div>
     </div>
-    """
+    """)
 
 
 def page_header(title: str, subtitle: str = "") -> str:
     """Cinematic page header with animated mesh gradient and glow text."""
-    return f"""
+    return _clean_html(f"""
     <style>
     @keyframes qs-mesh-shift {{
         0%   {{ background-position: 0% 50%; }}
@@ -289,13 +281,13 @@ def page_header(title: str, subtitle: str = "") -> str:
             position: relative; z-index: 1;
         ">{subtitle}</div>
     </div>
-    """
+    """)
 
 
 def section_divider(label: str = "") -> str:
     """Neon glow section divider with gradient label."""
     if label:
-        return f"""
+        return _clean_html(f"""
         <div style="
             display: flex;
             align-items: center;
@@ -319,5 +311,5 @@ def section_divider(label: str = "") -> str:
             ">{label}</div>
             <div style="flex:1; height:1px; background: linear-gradient(90deg, rgba(56,189,248,0.2), transparent);"></div>
         </div>
-        """
-    return '<div style="height:1px; background:linear-gradient(90deg, transparent, rgba(56,189,248,0.15), transparent); margin:20px 0;"></div>'
+        """)
+    return _clean_html('<div style="height:1px; background:linear-gradient(90deg, transparent, rgba(56,189,248,0.15), transparent); margin:20px 0;"></div>')
