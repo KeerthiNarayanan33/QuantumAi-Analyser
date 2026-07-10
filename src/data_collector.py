@@ -53,9 +53,11 @@ def fetch_stock_data(tickers: list[str] = DEFAULT_TICKERS,
             if df.empty:
                 print(f"[WARN] No data for {ticker}, skipping.")
                 continue
-            # Flatten multi-level column index if present
+            # Flatten multi-level column index if present and ensure flat string column names
             if isinstance(df.columns, pd.MultiIndex):
-                df.columns = df.columns.get_level_values(0)
+                df.columns = [str(c[0]) if isinstance(c, tuple) else str(c) for c in df.columns]
+            else:
+                df.columns = [str(c) for c in df.columns]
             df.index = pd.to_datetime(df.index)
             df["Ticker"] = ticker
             stock_data[ticker] = df
@@ -78,6 +80,8 @@ def get_combined_stock_df(tickers: list[str] = DEFAULT_TICKERS,
     frames = []
     for ticker, df in raw.items():
         df = df.reset_index().rename(columns={"index": "Date", "Datetime": "Date"})
+        # Ensure all columns are flat strings (reset_index might introduce tuple names if columns had a name)
+        df.columns = [str(c[0]) if isinstance(c, tuple) else str(c) for c in df.columns]
         df["Ticker"] = ticker
         frames.append(df)
 
