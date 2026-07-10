@@ -50,9 +50,9 @@ try:
     from qiskit_machine_learning.kernels import FidelityStatevectorKernel
     from qiskit_machine_learning.algorithms import QSVC
     QISKIT_AVAILABLE = True
-except ImportError:
+except Exception as e:
     QISKIT_AVAILABLE = False
-    print("[WARN] Qiskit Machine Learning not installed. "
+    print(f"[WARN] Qiskit initialization failed: {e}. "
           "QSVC will fall back to classical SVM.")
 
 # ── Paths ───────────────────────────────────────────────────
