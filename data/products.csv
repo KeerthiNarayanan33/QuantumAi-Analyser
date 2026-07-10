@@ -1,0 +1,105 @@
+product_name,category,price,target_audience,market_size_cr,competition_level,demand_score,success_rate,investment_score
+Electric Bicycle,EV & Mobility,25000,Urban Commuters,8500,High,72,0.68,74
+Solar Rooftop Kit,Renewable Energy,85000,Homeowners,22000,Medium,78,0.74,80
+Organic Grocery Box,Food & Agriculture,1200,Health Conscious,5500,High,65,0.62,66
+AI Tutoring App,EdTech,499,Students,12000,High,81,0.76,79
+Telemedicine Platform,HealthTech,299,Rural & Urban,18000,Medium,83,0.79,85
+Smart Water Purifier,Consumer Electronics,8500,Households,6800,High,70,0.66,71
+EV Charging Station,EV & Mobility,150000,Commercial,35000,Low,88,0.84,90
+Ayurvedic Skincare,Beauty & Wellness,750,Women 25-45,4200,High,62,0.59,63
+Online Fitness Platform,Health & Fitness,599,Working Adults,8000,High,74,0.71,73
+Cold Press Juicer,Consumer Electronics,4500,Health Conscious,1800,Medium,61,0.58,62
+Farm-to-Table App,Food & Agriculture,Free/Commission,Urban Families,3200,Medium,69,0.65,70
+Electric Scooter,EV & Mobility,65000,Tier 2 Youth,15000,High,76,0.72,77
+AI Resume Builder,SaaS,299,Job Seekers,2800,High,77,0.73,75
+Drone Delivery Service,Logistics & Supply,Per delivery,E-commerce,45000,Low,85,0.80,87
+Smart Agriculture Sensor,AgriTech,12000,Farmers,9500,Low,80,0.76,82
+Vernacular LMS,EdTech,299,Rural Students,7200,Medium,79,0.74,81
+Mental Health App,HealthTech,199,Young Adults,6500,Medium,76,0.72,78
+Digital Gold Platform,FinTech,0 (commission),Retail Investors,28000,High,72,0.68,73
+EV Two-Wheeler Parts,EV & Mobility,varies,Mechanics,4800,Low,74,0.70,75
+Bio-degradable Packaging,Manufacturing,Per unit,FMCG Companies,11000,Medium,77,0.73,78
+Smart Classroom Kit,EdTech,45000,Schools,8800,Low,82,0.78,84
+Online Pharmacy,HealthTech,Free/Commission,General Public,32000,High,80,0.76,81
+Plant-Based Protein,Food & Agriculture,850,Fitness Enthusiasts,3400,Medium,70,0.66,71
+AR Shopping App,Retail Tech,Free,Online Shoppers,9200,Medium,75,0.71,76
+Crop Insurance Platform,AgriTech,Per crop,Farmers,14000,Low,83,0.79,85
+Food Delivery Dark Kitchen,Food & Agriculture,Per order,Urban Diners,22000,High,68,0.64,67
+Smart Helmet,Safety & Transport,3500,Bike Riders,2100,Medium,65,0.61,66
+Hyperlocal Delivery,Logistics & Supply,Per delivery,Local Businesses,8500,High,70,0.66,70
+HomeChef Subscription,Food & Agriculture,1800,Working Professionals,4200,Medium,72,0.68,73
+EV Battery Recycling,Renewable Energy,Per kg,Industries,7800,Low,84,0.80,86
+Legal AI Platform,LegalTech,999,Small Businesses,5500,Low,79,0.75,81
+Pet Care Subscription,Consumer Services,1200,Pet Owners,3100,Medium,67,0.63,68
+MSME Credit App,FinTech,0 (commission),Small Businesses,18000,Medium,78,0.74,79
+Edible Cutlery,Sustainability,Per unit,Restaurants,1500,Low,71,0.67,73
+Water ATM Network,Infrastructure,Per litre,Rural Communities,6200,Low,85,0.81,87
+AI HR Platform,HRTech,2999,SMEs,9800,Medium,76,0.72,77
+Smart Parking System,Smart City,Per use,Urban Drivers,5200,Low,80,0.76,82
+EV Fleet Management,EV & Mobility,5999/month,Logistics Companies,12000,Low,86,0.82,88
+Blockchain Land Records,GovTech,Govt contract,Government,25000,Low,81,0.77,83
+Vernacular Voice Assistant,AI & SaaS,Free/Ad,Rural Users,11500,High,73,0.69,74
+Micro Insurance App,FinTech,Per policy,Low-income Groups,16000,Medium,77,0.73,78
+Smart Irrigation System,AgriTech,18000,Farmers,10800,Low,83,0.79,85
+Electric Tuk-Tuk,EV & Mobility,95000,Last Mile Transport,8500,Medium,79,0.75,80
+Online Jewellery,Retail,varies,Women,14500,High,66,0.62,67
+Social Commerce App,Retail Tech,0 (commission),Social Media Users,19000,High,71,0.67,72
+AI Legal Document,LegalTech,499,Individuals,4800,Low,74,0.70,75
+Bamboo Products,Sustainability,varies,Eco Consumers,2800,Low,68,0.64,69
+Cold Storage Chain,Logistics & Supply,Per kg,Farmers/FMCG,13500,Low,84,0.80,86
+EdTech for Seniors,EdTech,399,60+ Adults,3200,Low,72,0.68,74
+Electric Cargo Bike,EV & Mobility,45000,Delivery Companies,6800,Low,81,0.77,83
+Aquaponics Kit,AgriTech,8000,Urban Farmers,1900,Low,69,0.65,71
+Health Wearable,Consumer Electronics,5500,Fitness Users,12000,High,74,0.70,75
+Women Safety App,Safety & Transport,Free,Women,9500,Medium,80,0.76,81
+NFT Art Platform,Web3,0 (commission),Artists,7200,High,58,0.54,59
+B2B Procurement SaaS,SaaS,8999/month,Enterprises,22000,Medium,77,0.73,78
+Rural Fintech Card,FinTech,Free,Rural Unbanked,20000,Medium,82,0.78,84
+Game-based Learning,EdTech,299,Children 6-14,9800,High,76,0.72,77
+Satellite Internet,Telecom,999/month,Rural,35000,Low,88,0.84,89
+Vertical Farming Kit,AgriTech,25000,Urban Farms,4800,Low,78,0.74,80
+AI Fashion Stylist,AI & SaaS,499,Fashion Conscious,6200,Medium,70,0.66,71
+Digital Printing Service,Manufacturing,Per order,SMEs,5500,High,65,0.61,66
+Home Automation Kit,Smart Home,12000,Urban Homeowners,9200,Medium,74,0.70,75
+Ayurvedic Medicine App,HealthTech,Free,General Public,8500,Medium,71,0.67,72
+Freelancer Marketplace,SaaS,0 (commission),Freelancers,15000,High,73,0.69,74
+Skill Training VR,EdTech,15000,Corporate,11000,Low,80,0.76,82
+Dairy Supply Chain,Food & Agriculture,Per litre,Dairy Farmers,18000,Low,82,0.78,84
+Quick Commerce App,Retail Tech,Per order,Urban Millennials,25000,High,75,0.71,76
+Smart Dustbin,Smart City,8000,Municipalities,4200,Low,76,0.72,78
+Indoor Air Quality Monitor,Consumer Electronics,4500,Urban Households,3800,Medium,69,0.65,70
+Peer Tutoring Platform,EdTech,199,College Students,5200,Medium,74,0.70,75
+EV Ambulance,EV & Mobility,350000,Government/NGO,8000,Low,83,0.79,85
+Plant Nursery App,AgriTech,Free,Home Gardeners,2200,Low,67,0.63,69
+Insurance Comparison,FinTech,0 (commission),Insurance Buyers,22000,High,70,0.66,71
+Robotics Kit,EdTech,3500,Kids 8-15,4800,Medium,75,0.71,76
+Herbal Tea Brand,Food & Agriculture,350,Health Conscious,3100,High,63,0.59,64
+E-Waste Collection,Sustainability,Per kg,Urban Households,6800,Low,77,0.73,79
+Smart Attendance System,HRTech,12000,Schools/Offices,7200,Medium,74,0.70,75
+EV Bike Subscription,EV & Mobility,3000/month,Urban Youth,9800,Medium,80,0.76,81
+AI Crop Doctor,AgriTech,Free,Farmers,14500,Low,86,0.82,88
+Digital Lending NBFC,FinTech,Spread,Retail Borrowers,45000,High,71,0.67,72
+Spoken English App,EdTech,199,Rural/Semi-urban,12000,High,78,0.74,79
+Smart Sanitation,Infrastructure,Govt contract,Government,18000,Low,85,0.81,87
+EV Bus Fleet,EV & Mobility,2500000,State Transport,55000,Low,87,0.83,89
+Online Vet Consultation,HealthTech,299,Pet Owners,4200,Low,75,0.71,77
+Carbon Credit Platform,Sustainability,Per credit,Corporates,28000,Low,82,0.78,84
+AI Customer Service Bot,AI & SaaS,4999/month,SMEs,15000,Medium,78,0.74,79
+Millet Products Brand,Food & Agriculture,450,Health Conscious,4500,Medium,72,0.68,73
+Home Solar Battery,Renewable Energy,65000,Homeowners,18000,Medium,80,0.76,82
+Smart Glucose Monitor,HealthTech,2500,Diabetics,8800,Medium,79,0.75,80
+EV Rickshaw,EV & Mobility,85000,Auto Drivers,12000,Medium,82,0.78,83
+Digital Art School,EdTech,1499/month,Creative Youth,5200,Medium,71,0.67,72
+Precision Agriculture AI,AgriTech,Subscription,Agribusiness,22000,Low,85,0.81,87
+Conversational AI Platform,AI & SaaS,9999/month,Enterprises,35000,Medium,79,0.75,80
+B2C Logistics App,Logistics & Supply,Per delivery,E-commerce SMEs,18000,High,73,0.69,74
+Smart Bus Stop,Smart City,Govt contract,Government,12000,Low,80,0.76,82
+Hydrogen Fuel Cell,Renewable Energy,500000,Industrial,45000,Low,83,0.79,85
+Regenerative Farm,Food & Agriculture,varies,Sustainable Brands,8500,Low,76,0.72,78
+Space-tech Startup,Deep Tech,Varies,Government/Defence,85000,Low,72,0.68,74
+Quantum Cybersecurity,Cybersecurity,Subscription,Enterprises,38000,Low,80,0.76,82
+Urban Mobility App,EV & Mobility,Free,City Commuters,22000,High,74,0.70,75
+Gene Therapy Platform,BioTech,Clinical,Hospitals,75000,Low,78,0.74,80
+EV Highway Charger,EV & Mobility,500000,Highways/Malls,28000,Low,87,0.83,89
+Climate Risk Analytics,Climate Tech,Subscription,Insurers/Banks,32000,Low,82,0.78,84
+Fintech for Gig Workers,FinTech,0 (commission),Gig Economy,14000,Medium,79,0.75,80

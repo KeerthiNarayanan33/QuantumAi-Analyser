@@ -1,0 +1,51 @@
+headline,source,date,ticker,sector
+"Apple reports record quarterly revenue, beating analyst expectations by 8%",Reuters,2024-01-15,AAPL,Technology
+"Fed signals potential rate cuts in 2024, markets rally strongly",Bloomberg,2024-01-14,SPY,Finance
+"Tesla deliveries miss Q4 targets, shares fall 12% in after-hours trading",CNBC,2024-01-13,TSLA,Automotive
+"Microsoft Azure cloud revenue grows 28%, surpassing forecasts",WSJ,2024-01-12,MSFT,Technology
+"Oil prices surge amid Middle East tensions, energy stocks jump",Reuters,2024-01-11,XOM,Energy
+"Amazon announces 18,000 layoffs as cost-cutting measures intensify",Bloomberg,2024-01-10,AMZN,Technology
+"Nvidia GPU demand soars on AI boom, stock hits all-time high",CNBC,2024-01-09,NVDA,Technology
+"Banking sector faces credit risk amid rising defaults",FT,2024-01-08,JPM,Finance
+"Google parent Alphabet beats revenue estimates, ad market recovery strong",Reuters,2024-01-07,GOOGL,Technology
+"Inflation data shows cooling trend, boosting investor confidence",Bloomberg,2024-01-06,SPY,Finance
+"Meta Platforms reports strong user growth across all platforms",WSJ,2024-01-05,META,Technology
+"Pharmaceutical giant Pfizer cuts revenue forecast on lower vaccine demand",CNBC,2024-01-04,PFE,Healthcare
+"Warren Buffett increases Berkshire stake in oil majors",Reuters,2024-01-03,BRK-B,Finance
+"Bitcoin surges past $50000 as ETF approval drives institutional buying",Bloomberg,2024-01-02,BTC,Crypto
+"Global supply chain disruptions ease, manufacturing index improves",FT,2024-01-01,SPY,Industrial
+"Goldman Sachs warns of potential market correction in Q2 2024",CNBC,2023-12-31,GS,Finance
+"Semiconductor shortage ends, chip stocks rally across the board",Reuters,2023-12-30,INTC,Technology
+"Retail sales disappoint in November, consumer confidence weakens",Bloomberg,2023-12-29,WMT,Retail
+"JPMorgan Chase earnings beat estimates, credit card spending rises",WSJ,2023-12-28,JPM,Finance
+"Electric vehicle adoption accelerates, charging network expands rapidly",CNBC,2023-12-27,TSLA,Automotive
+"China economy shows signs of recovery, boosting Asian markets",Reuters,2023-12-26,FXI,International
+"Healthcare spending reaches record high, insurers face pressure",Bloomberg,2023-12-25,UNH,Healthcare
+"Real estate market shows resilience despite high mortgage rates",FT,2023-12-24,VNQ,Real Estate
+"Cybersecurity breaches increase 40%, demand for security stocks rises",CNBC,2023-12-23,CRWD,Technology
+"US unemployment rate drops to 50-year low, labor market tight",Reuters,2023-12-22,SPY,Finance
+"Apple faces antitrust scrutiny in Europe over App Store practices",Bloomberg,2023-12-21,AAPL,Technology
+"Renewable energy investments hit record $500 billion globally",WSJ,2023-12-20,NEE,Energy
+"Crypto exchange FTX collapse aftermath continues to impact market",CNBC,2023-12-19,BTC,Crypto
+"Consumer price index rises less than expected, inflation cooling",Reuters,2023-12-18,SPY,Finance
+"Disney streaming subscribers decline, pressure mounts on leadership",Bloomberg,2023-12-17,DIS,Entertainment
+"Biotech sector surges on breakthrough cancer treatment approval",FT,2023-12-16,BIIB,Healthcare
+"Housing starts fall to two-year low on affordability concerns",CNBC,2023-12-15,DHI,Real Estate
+"Ford slashes EV production targets citing weaker than expected demand",Reuters,2023-12-14,F,Automotive
+"S&P 500 closes at record high driven by tech sector strength",Bloomberg,2023-12-13,SPY,Finance
+"Corporate bond market sees record issuance as companies lock in rates",WSJ,2023-12-12,AGG,Finance
+"Social media advertising revenue rebounds strongly after slowdown",CNBC,2023-12-11,META,Technology
+"Airline industry profits soar on strong travel demand post-pandemic",Reuters,2023-12-10,DAL,Travel
+"Bank of Japan maintains ultra-loose monetary policy stance",Bloomberg,2023-12-09,EWJ,International
+"Grocery chains face margin pressure as food costs remain elevated",FT,2023-12-08,KR,Retail
+"Venture capital funding rebounds in AI and ML startups",CNBC,2023-12-07,SPY,Technology
+"Tesla opens new Gigafactory in Mexico, production capacity expands",Reuters,2023-12-06,TSLA,Automotive
+"Insurance companies raise premiums after record catastrophe losses",Bloomberg,2023-12-05,ALL,Finance
+"Pharmaceutical mergers accelerate as big pharma seeks pipeline growth",WSJ,2023-12-04,MRK,Healthcare
+"Gold prices hit record high as investors seek safe haven assets",CNBC,2023-12-03,GLD,Commodities
+"US China trade tensions ease slightly on diplomatic talks",Reuters,2023-12-02,SPY,International
+"Streaming wars intensify as Netflix, Disney+ battle for subscribers",Bloomberg,2023-12-01,NFLX,Entertainment
+"Agricultural commodity prices fall on bumper crop harvest globally",FT,2023-11-30,MOO,Agriculture
+"Fintech startups face funding crunch as interest rates stay high",CNBC,2023-11-29,SQ,Finance
+"Cloud computing market expected to reach 1 trillion by 2028",Reuters,2023-11-28,MSFT,Technology
+"Geopolitical uncertainty drives volatility in emerging market stocks",Bloomberg,2023-11-27,EEM,International

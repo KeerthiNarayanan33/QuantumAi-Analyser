@@ -1,0 +1,40 @@
+# ============================================================
+# QuantumSentinel — Requirements
+# Quantum Analytics for Investor Behaviour & Market Sentiment
+# ============================================================
+
+# ── Core Data ──────────────────────────────────────────────
+pandas==2.1.4
+numpy==1.26.4
+yfinance==0.2.38
+requests==2.31.0
+
+# ── Machine Learning ───────────────────────────────────────
+scikit-learn==1.4.2
+joblib==1.4.2
+
+# ── NLP / Sentiment ────────────────────────────────────────
+transformers==4.40.2
+torch==2.3.0
+sentencepiece==0.2.0
+
+# ── Quantum Computing ──────────────────────────────────────
+qiskit==1.1.0
+qiskit-machine-learning==0.7.2
+qiskit-aer==0.14.2
+
+# ── Visualization ──────────────────────────────────────────
+plotly==5.22.0
+matplotlib==3.8.4
+
+# ── Dashboard ──────────────────────────────────────────────
+streamlit==1.35.0
+
+# ── Reporting ──────────────────────────────────────────────
+fpdf2==2.7.9
+
+# ── Backend API ────────────────────────────────────────────
+fastapi==0.111.0
+uvicorn[standard]==0.30.1
+pydantic==2.7.4
+httpx==0.27.0          # async HTTP client (used in tests / inter-service calls)

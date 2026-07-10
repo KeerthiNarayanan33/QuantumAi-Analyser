@@ -1,0 +1,25 @@
+{
+  "pythonVersion": "3.14",
+  "venvPath": ".",
+  "venv": ".venv",
+  "pythonPlatform": "Windows",
+  "typeCheckingMode": "off",
+  "extraPaths": [
+    "src",
+    "dashboard",
+    "backend",
+    "."
+  ],
+  "exclude": [
+    "**/__pycache__",
+    ".venv"
+  ],
+  "reportMissingImports": "none",
+  "reportMissingModuleSource": "none",
+  "reportGeneralTypeIssues": "none",
+  "reportOptionalMemberAccess": "none",
+  "reportAttributeAccessIssue": "none",
+  "reportUnknownVariableType": "none",
+  "reportUnknownMemberType": "none",
+  "reportUnknownArgumentType": "none"
+}

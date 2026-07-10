@@ -1,0 +1,32 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Caches
+.pytest_cache/
+.mypy_cache/
+.pyre/
+
+# Virtual Environments
+.venv/
+venv/
+env/
+ENV/
+
+# VS Code workspace settings
+.vscode/
+
+# Project-specific ignored folders
+logs/
+files/
+
+# Model checkpoints & NLP model cache (re-generated during training)
+models/*.pkl
+models/finbert_cache/
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+desktop.ini
