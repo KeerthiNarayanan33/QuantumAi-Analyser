@@ -196,6 +196,7 @@ if "data_loaded" not in st.session_state:
     st.session_state.qsvc_accuracy   = None
     st.session_state.svm_accuracy    = None
     st.session_state.selected_ticker = "AAPL"
+    st.session_state.loading_error   = None
 
 
 # ════════════════════════════════════════════════════════════
@@ -294,6 +295,9 @@ if load_btn or not st.session_state.data_loaded:
 
             st.session_state.data_loaded = True
         except Exception as e:
+            import traceback
+            traceback.print_exc()
+            st.session_state.loading_error = f"{type(e).__name__}: {str(e)}"
             st.error(f"Data loading error: {e}")
             st.info("ℹ️ Showing demo data. Run `python src/train.py` to train models.")
             # Generate minimal demo data
@@ -313,6 +317,9 @@ models      = st.session_state.models      if st.session_state.models      is no
 ticker      = st.session_state.selected_ticker
 qsvc_acc    = st.session_state.qsvc_accuracy if st.session_state.qsvc_accuracy is not None else 0.72
 svm_acc     = st.session_state.svm_accuracy  if st.session_state.svm_accuracy  is not None else 0.68
+
+if "loading_error" in st.session_state and st.session_state.loading_error:
+    st.error(f"⚠️ Persistent Data Loading Exception: {st.session_state.loading_error}")
 
 # ── Find prediction for selected ticker ──────────────────────
 ticker_pred = next((p for p in predictions if p["ticker"] == ticker), None)
