@@ -420,17 +420,11 @@ with tab_overview:
         )
 
     with col_price:
-        try:
-            st.plotly_chart(
-                stock_price_chart(stock_df, ticker),
-                use_container_width=True, config={"displayModeBar": False},
-                key="overview_stock_price"
-            )
-        except Exception as e:
-            st.error(f"Error rendering stock price chart: {e}")
-            st.write("DEBUG INFO - stock_df columns:", list(stock_df.columns))
-            st.write("DEBUG INFO - stock_df head:", stock_df.head(2))
-            raise e
+        st.plotly_chart(
+            stock_price_chart(stock_df, ticker),
+            use_container_width=True, config={"displayModeBar": False},
+            key="overview_stock_price"
+        )
 
     # ── Charts Row 2 ─────────────────────────────────────────
     col_timeline, col_vol = st.columns([2, 1])

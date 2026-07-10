@@ -203,6 +203,8 @@ def stock_price_chart(stock_df: pd.DataFrame, ticker: str) -> go.Figure:
     """
     Premium candlestick with neon candles and SMA overlay.
     """
+    if stock_df.empty or "Ticker" not in stock_df.columns:
+        return _empty_chart(f"No price data available for {ticker}")
     df = stock_df[stock_df["Ticker"] == ticker].copy().sort_values("Date")
     if df.empty:
         return _empty_chart(f"No price data for {ticker}")
@@ -534,6 +536,8 @@ def model_comparison_chart(qsvc_acc: float, svm_acc: float) -> go.Figure:
 # ────────────────────────────────────────────────────────────
 def volume_chart(stock_df: pd.DataFrame, ticker: str) -> go.Figure:
     """Neon green/red volume bars."""
+    if stock_df.empty or "Ticker" not in stock_df.columns:
+        return _empty_chart(f"No volume data available for {ticker}")
     df = stock_df[stock_df["Ticker"] == ticker].copy().sort_values("Date")
     if df.empty or "Volume" not in df.columns:
         return _empty_chart(f"No volume data for {ticker}")
