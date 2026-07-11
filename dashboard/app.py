@@ -75,7 +75,7 @@ st.markdown("""
 
 /* ── Root dark theme ─────────────────────── */
 html, body, [class*="css"]  {
-    font-family: 'Inter', sans-serif !important;
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol" !important;
     background-color: #0f172a !important;
     color: #e2e8f0 !important;
 }
@@ -143,6 +143,7 @@ html, body, [class*="css"]  {
     border-radius: 8px !important;
     padding: 8px 16px !important;
     border: none !important;
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol" !important;
 }
 .stTabs button[data-baseweb="tab"] [data-testid="stMarkdownContainer"] p,
 .stTabs button[data-baseweb="tab"] p,
@@ -151,6 +152,7 @@ html, body, [class*="css"]  {
     color: #94a3b8 !important;
     font-weight: 600 !important;
     font-size: 14px !important;
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol" !important;
 }
 .stTabs button[data-baseweb="tab"]:hover {
     background-color: #334155 !important;
@@ -171,6 +173,7 @@ html, body, [class*="css"]  {
 .stTabs button[aria-selected="true"] div {
     color: #ffffff !important;
     font-weight: 700 !important;
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol" !important;
 }
 .stTabs [data-baseweb="tab-highlight"] {
     background-color: transparent !important;
