@@ -141,6 +141,8 @@ class BackendConfig:
 
     # CORS — add your frontend origin if deploying separately
     CORS_ORIGINS: list[str] = [
+        origin.strip() for origin in os.getenv("CORS_ORIGINS", "").split(",") if origin.strip()
+    ] or [
         "http://localhost:8501",   # Streamlit default
         "http://localhost:3000",   # React / Next.js dev
         "http://127.0.0.1:8501",
