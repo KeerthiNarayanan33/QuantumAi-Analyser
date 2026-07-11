@@ -130,6 +130,7 @@ html, body, [class*="css"]  {
 }
 
 /* ── Tabs ────────────────────────────────── */
+.stTabs [role="tablist"],
 .stTabs [data-baseweb="tab-list"] {
     background-color: #1e293b !important;
     background: #1e293b !important;
@@ -170,8 +171,12 @@ html, body, [class*="css"]  {
     font-weight: 700 !important;
     font-family: 'Inter', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol" !important;
 }
-.stTabs [data-baseweb="tab-highlight"] {
+.stTabs [data-baseweb="tab-border"],
+.stTabs [data-baseweb="tab-highlight"],
+.stTabs [role="tablist"] ~ div {
     background-color: transparent !important;
+    border-color: transparent !important;
+    height: 0px !important;
 }
 
 /* ── Info / Warning boxes ────────────────── */
