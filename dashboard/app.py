@@ -131,43 +131,49 @@ html, body, [class*="css"]  {
 
 /* ── Tabs ────────────────────────────────── */
 .stTabs [data-baseweb="tab-list"] {
-    background: #1e293b;
-    border-radius: 10px;
-    padding: 4px;
-    gap: 4px;
+    background-color: #1e293b !important;
+    background: #1e293b !important;
+    border-radius: 10px !important;
+    padding: 6px !important;
+    gap: 6px !important;
 }
-.stTabs [data-baseweb="tab"] {
+.stTabs button[data-baseweb="tab"] {
+    background-color: transparent !important;
     background: transparent !important;
-    color: #94a3b8 !important;
-    border-radius: 8px;
-    font-weight: 600 !important;
-    font-size: 13px !important;
+    border-radius: 8px !important;
     padding: 8px 16px !important;
+    border: none !important;
 }
-.stTabs [data-baseweb="tab"] p,
-.stTabs [data-baseweb="tab"] span,
-.stTabs [data-baseweb="tab"] div {
+.stTabs button[data-baseweb="tab"] [data-testid="stMarkdownContainer"] p,
+.stTabs button[data-baseweb="tab"] p,
+.stTabs button[data-baseweb="tab"] span,
+.stTabs button[data-baseweb="tab"] div {
     color: #94a3b8 !important;
     font-weight: 600 !important;
-    font-size: 13px !important;
+    font-size: 14px !important;
 }
-.stTabs [data-baseweb="tab"]:hover {
+.stTabs button[data-baseweb="tab"]:hover {
+    background-color: #334155 !important;
     background: #334155 !important;
+}
+.stTabs button[data-baseweb="tab"]:hover [data-testid="stMarkdownContainer"] p,
+.stTabs button[data-baseweb="tab"]:hover p,
+.stTabs button[data-baseweb="tab"]:hover span,
+.stTabs button[data-baseweb="tab"]:hover div {
     color: #e2e8f0 !important;
 }
-.stTabs [data-baseweb="tab"]:hover p,
-.stTabs [data-baseweb="tab"]:hover span,
-.stTabs [data-baseweb="tab"]:hover div {
-    color: #e2e8f0 !important;
-}
-.stTabs [aria-selected="true"] {
+.stTabs button[aria-selected="true"] {
     background: linear-gradient(135deg, #1e40af, #7c3aed) !important;
-    color: white !important;
 }
-.stTabs [aria-selected="true"] p,
-.stTabs [aria-selected="true"] span,
-.stTabs [aria-selected="true"] div {
-    color: white !important;
+.stTabs button[aria-selected="true"] [data-testid="stMarkdownContainer"] p,
+.stTabs button[aria-selected="true"] p,
+.stTabs button[aria-selected="true"] span,
+.stTabs button[aria-selected="true"] div {
+    color: #ffffff !important;
+    font-weight: 700 !important;
+}
+.stTabs [data-baseweb="tab-highlight"] {
+    background-color: transparent !important;
 }
 
 /* ── Info / Warning boxes ────────────────── */
