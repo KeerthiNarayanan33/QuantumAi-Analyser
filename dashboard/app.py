@@ -137,7 +137,8 @@ html, body, [class*="css"]  {
     padding: 6px !important;
     gap: 6px !important;
 }
-.stTabs button[data-baseweb="tab"] {
+.stTabs [data-baseweb="tab"],
+.stTabs [role="tab"] {
     background-color: transparent !important;
     background: transparent !important;
     border-radius: 8px !important;
@@ -145,32 +146,41 @@ html, body, [class*="css"]  {
     border: none !important;
     font-family: 'Inter', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol" !important;
 }
-.stTabs button[data-baseweb="tab"] [data-testid="stMarkdownContainer"] p,
-.stTabs button[data-baseweb="tab"] p,
-.stTabs button[data-baseweb="tab"] span,
-.stTabs button[data-baseweb="tab"] div {
+.stTabs [data-baseweb="tab"] [data-testid="stMarkdownContainer"] p,
+.stTabs [data-baseweb="tab"] p,
+.stTabs [data-baseweb="tab"] span,
+.stTabs [data-baseweb="tab"] div,
+.stTabs [role="tab"] [data-testid="stMarkdownContainer"] p,
+.stTabs [role="tab"] p,
+.stTabs [role="tab"] span,
+.stTabs [role="tab"] div {
     color: #94a3b8 !important;
     font-weight: 600 !important;
     font-size: 14px !important;
     font-family: 'Inter', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol" !important;
 }
-.stTabs button[data-baseweb="tab"]:hover {
+.stTabs [data-baseweb="tab"]:hover,
+.stTabs [role="tab"]:hover {
     background-color: #334155 !important;
     background: #334155 !important;
 }
-.stTabs button[data-baseweb="tab"]:hover [data-testid="stMarkdownContainer"] p,
-.stTabs button[data-baseweb="tab"]:hover p,
-.stTabs button[data-baseweb="tab"]:hover span,
-.stTabs button[data-baseweb="tab"]:hover div {
+.stTabs [data-baseweb="tab"]:hover [data-testid="stMarkdownContainer"] p,
+.stTabs [data-baseweb="tab"]:hover p,
+.stTabs [data-baseweb="tab"]:hover span,
+.stTabs [data-baseweb="tab"]:hover div,
+.stTabs [role="tab"]:hover [data-testid="stMarkdownContainer"] p,
+.stTabs [role="tab"]:hover p,
+.stTabs [role="tab"]:hover span,
+.stTabs [role="tab"]:hover div {
     color: #e2e8f0 !important;
 }
-.stTabs button[aria-selected="true"] {
+.stTabs [aria-selected="true"] {
     background: linear-gradient(135deg, #1e40af, #7c3aed) !important;
 }
-.stTabs button[aria-selected="true"] [data-testid="stMarkdownContainer"] p,
-.stTabs button[aria-selected="true"] p,
-.stTabs button[aria-selected="true"] span,
-.stTabs button[aria-selected="true"] div {
+.stTabs [aria-selected="true"] [data-testid="stMarkdownContainer"] p,
+.stTabs [aria-selected="true"] p,
+.stTabs [aria-selected="true"] span,
+.stTabs [aria-selected="true"] div {
     color: #ffffff !important;
     font-weight: 700 !important;
     font-family: 'Inter', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol" !important;
