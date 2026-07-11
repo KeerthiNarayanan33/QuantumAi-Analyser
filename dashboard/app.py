@@ -130,16 +130,14 @@ html, body, [class*="css"]  {
 }
 
 /* ── Tabs ────────────────────────────────── */
-.stTabs [role="tablist"],
-.stTabs [data-baseweb="tab-list"] {
+[role="tablist"] {
     background-color: #1e293b !important;
     background: #1e293b !important;
     border-radius: 10px !important;
     padding: 6px !important;
     gap: 6px !important;
 }
-.stTabs [data-baseweb="tab"],
-.stTabs [role="tab"] {
+[role="tab"] {
     background-color: transparent !important;
     background: transparent !important;
     border-radius: 8px !important;
@@ -147,33 +145,30 @@ html, body, [class*="css"]  {
     border: none !important;
     font-family: 'Inter', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol" !important;
 }
-.stTabs [data-baseweb="tab"] *,
-.stTabs [role="tab"] * {
+[role="tab"] * {
     color: #94a3b8 !important;
     font-weight: 600 !important;
     font-size: 14px !important;
     font-family: 'Inter', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol" !important;
 }
-.stTabs [data-baseweb="tab"]:hover,
-.stTabs [role="tab"]:hover {
+[role="tab"]:hover {
     background-color: #334155 !important;
     background: #334155 !important;
 }
-.stTabs [data-baseweb="tab"]:hover *,
-.stTabs [role="tab"]:hover * {
+[role="tab"]:hover * {
     color: #ffffff !important;
 }
-.stTabs [aria-selected="true"] {
+[role="tablist"] [aria-selected="true"] {
     background: linear-gradient(135deg, #1e40af, #7c3aed) !important;
 }
-.stTabs [aria-selected="true"] * {
+[role="tablist"] [aria-selected="true"] * {
     color: #ffffff !important;
     font-weight: 700 !important;
     font-family: 'Inter', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol" !important;
 }
-.stTabs [data-baseweb="tab-border"],
-.stTabs [data-baseweb="tab-highlight"],
-.stTabs [role="tablist"] ~ div {
+[data-baseweb="tab-border"],
+[data-baseweb="tab-highlight"],
+[role="tablist"] ~ div {
     background-color: transparent !important;
     border-color: transparent !important;
     height: 0px !important;
